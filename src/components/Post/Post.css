@@ -1,0 +1,34 @@
+.post {
+  border: 1px solid rgba(158, 158, 158, 0.4);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 5px;
+  max-width: 600px;
+  background: #fff;
+}
+.post-user-name {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(158, 158, 158, 0.4);
+}
+.post-body {
+  display: inline-block;
+  vertical-align: top;
+}
+.post-text {
+  font-size: 14px;
+}
+.post-text a {
+  color: rgb(51, 78, 136);
+}
+.post-text a:hover {
+  color: rgb(56, 83, 141);
+}
+.post-date {
+  color: rgb(32, 32, 32);
+  font-size: 14px;
+  margin-top: 10px;
+}
